@@ -1,4 +1,4 @@
-//Purpose: Get the current-date and display it in various formats
+/*Purpose: Get the current-date and display it in various formats*/
 //alert(document.lastModified);
 const currentYear = document.querySelector("#currentYear");
 const thisYear = new Date().getFullYear();
