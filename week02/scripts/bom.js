@@ -21,6 +21,7 @@ button.addEventListener('click', function() {
         const deleteButton = document.createElement('button');
         scriptureList.textContent = input.value;
         deleteButton.textContent = '❌';
+        //memuButton.textContent = '📖';
         deleteButton.onclick = function() {
             scriptureList.remove();
         };
