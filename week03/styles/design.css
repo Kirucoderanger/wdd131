@@ -74,3 +74,31 @@ footer {
 	font-size: smaller;
 	padding: 0.5rem 0;
 }
+/* :root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+}
+body {
+  background-color: var(--primary-color);
+}
+button {
+  background-color: var(--secondary-color);
+}
+    */
+    /* document.documentElement.style.setProperty('--primary-color', '#1abc9c');
+    document.documentElement.style.setProperty('--secondary-color', '#f39c12'); */
+    /* 
+    .dark-theme {
+  --bg-color: #222;
+  --text-color: #fff;
+}
+.light-theme {
+  --bg-color: #fff;
+  --text-color: #000;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+    */
