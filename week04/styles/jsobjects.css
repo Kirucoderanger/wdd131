@@ -37,4 +37,21 @@ body {
     font-weight: bold;
     padding: 0.5rem;
   }
+
+#dbody {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+#ddbody {
+    background-color: #4b2d2d;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+#arryfilter {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
   
