@@ -77,5 +77,101 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
+    {
+      templeName: "Hamilton New Zealand",
+      location: "Hamilton New Zealand",
+      dedicated: "1958, April,20",
+      imageUrl : 
+      "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-31316.jpg"
+    },
     // Add more temple objects here...
+
   ];
+
+  function displayTemples() {
+    const templeContainer = document.querySelector("#templeContainer");
+
+    temples.forEach(temple => {
+      const card = document.createElement("div");
+      card.classList.add("temple-card");
+
+      const img = document.createElement("img");
+      img.src = temple.imageUrl;
+      img.alt = temple.templeName;
+      img.loading = "lazy";
+
+      const name = document.createElement("h2");
+      name.textContent = temple.templeName;
+
+      const location = document.createElement("p");
+      location.textContent = `Location: ${temple.location}`;
+
+      const dedicated = document.createElement("p");
+      dedicated.textContent = `Dedicated: ${temple.dedicated}`;
+
+      const area = document.createElement("p");
+      area.textContent = `Area: ${temple.area.toLocaleString()} sq ft`;
+
+      card.appendChild(img);
+      card.appendChild(name);
+      card.appendChild(location);
+      card.appendChild(dedicated);
+      card.appendChild(area);
+
+      templeContainer.appendChild(card);
+    });
+
+    const filterButtons = document.querySelectorAll(".filter-button");
+
+    filterButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+        templeContainer.innerHTML = ""; // Clear the current display
+
+        let filteredTemples = temples;
+
+        if (filter === "old") {
+          filteredTemples = temples.filter(temple => new Date(temple.dedicated).getFullYear() < 1900);
+        } else if (filter === "new") {
+          filteredTemples = temples.filter(temple => new Date(temple.dedicated).getFullYear() > 2000);
+        } else if (filter === "large") {
+          filteredTemples = temples.filter(temple => temple.area > 90000);
+        } else if (filter === "small") {
+          filteredTemples = temples.filter(temple => temple.area < 10000);
+        }
+
+        filteredTemples.forEach(temple => {
+          const card = document.createElement("div");
+          card.classList.add("temple-card");
+
+          const img = document.createElement("img");
+          img.src = temple.imageUrl;
+          img.alt = temple.templeName;
+          img.loading = "lazy";
+
+          const name = document.createElement("h2");
+          name.textContent = temple.templeName;
+
+          const location = document.createElement("p");
+          location.textContent = `Location: ${temple.location}`;
+
+          const dedicated = document.createElement("p");
+          dedicated.textContent = `Dedicated: ${temple.dedicated}`;
+
+          const area = document.createElement("p");
+          area.textContent = `Area: ${temple.area.toLocaleString()} sq ft`;
+
+          card.appendChild(img);
+          card.appendChild(name);
+          card.appendChild(location);
+          card.appendChild(dedicated);
+          card.appendChild(area);
+
+          templeContainer.appendChild(card);
+        });
+      });
+    });
+  }
+
+  // Call the function
+  displayTemples();
