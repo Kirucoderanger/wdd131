@@ -73,7 +73,7 @@ const temples = [
       templeName: "Mexico City Mexico",
       location: "Mexico City, Mexico",
       dedicated: "1983, December, 2",
-      area: 45251,
+      area:  116642,
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
@@ -81,7 +81,7 @@ const temples = [
       templeName: "Hamilton New Zealand",
       location: "Hamilton, New Zealand",
       dedicated: "1958, April,20",
-      area: 116642,
+      area: 45251,
       imageUrl : 
       "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-31316.jpg"
     },
