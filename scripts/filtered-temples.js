@@ -122,7 +122,7 @@ const temples = [
       templeContainer.appendChild(card);
     });
 
-    const filterButtons = document.querySelectorAll(".filter-button");
+    const filterButtons = document.querySelectorAll("a");
 
     filterButtons.forEach(button => {
       button.addEventListener("click", () => {
