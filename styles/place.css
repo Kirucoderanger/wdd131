@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+:root {
+    --primary-color: hsl(206deg 38.07% 65.4%);
+    --secondary-color: coral;
+}
+
 header {
     max-width: 1200px;
     background: hsl(206deg 38.07% 65.4% );
@@ -79,10 +84,7 @@ section {
    
 
 }
-p {
-    font: 100 sans-serif;
-    
-}
+
 h2 {
     background-color: rgb(27, 2, 51);
     color: aliceblue;

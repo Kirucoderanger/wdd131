@@ -1,5 +1,10 @@
 @media (min-width:640px ) and (max-width:1000px) {
     /* Add your styles for large screens here */
+
+    :root {
+        --primary-color: hsl(206deg 38.07% 65.4%);
+        --secondary-color: coral;
+    }
     header {
         background:  hsl(206deg 38.07% 65.4% );
         max-width: 100%;
