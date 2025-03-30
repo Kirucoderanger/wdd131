@@ -5,9 +5,10 @@
 }
 
 :root {
-    --primary-color: hsl(206deg 38.07% 65.4%);
+    --primary-color: hsl(240, 4%, 5%);
     --secondary-color: coral;
 }
+
 
 header {
     max-width: 1200px;
@@ -22,6 +23,9 @@ main {
     width: 100%;
     background: coral;
     margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     
 }
 .hero{

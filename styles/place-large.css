@@ -1,7 +1,7 @@
 @media (min-width:1000px) {
     /* Add your styles for large screens here */
     :root {
-        --primary-color: hsl(206deg 38.07% 65.4%);
+        --primary-color: hsl(206, 64%, 6%);
         --secondary-color: coral;
     }
     header {
@@ -16,6 +16,9 @@
         background: coral;
         height: auto;
         margin: 0 auto;
+        font-family: Arial, sans-serif;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
     }
     .hero{
         display: block;
