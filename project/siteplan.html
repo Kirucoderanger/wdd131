@@ -60,6 +60,15 @@
         button.primary:hover {
             background-color: #008F7A;
         }
+        body.dark-mode {
+            background-color: #1E1E2E;
+            color: #FFFFFF;
+        }
+
+        body.light-mode {
+            background-color: #F5F5F5;
+            color: #000000;
+        }
     </style>
 </head>
 <body>
@@ -80,21 +89,11 @@
                 themeToggle.textContent = 'Switch to Dark Mode';
             }
         });
+        // Set dark mode as the default theme
+        body.classList.add('dark-mode');
+        themeToggle.textContent = 'Switch to Light Mode';
     </script>
-
-    <style>
-        body.dark-mode {
-            background-color: #1E1E2E;
-            color: #FFFFFF;
-        }
-
-        body.light-mode {
-            background-color: #F5F5F5;
-            color: #000000;
-        }
-    </style>
     <h1>Website Plan</h1>
-
     <div class="section">
         <h2>Site Name</h2>
         <p>Domain Name: <strong>spadeJS.com</strong></p>
