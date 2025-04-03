@@ -97,6 +97,9 @@ h2 {
    
 
 }
+.card2 img{
+    display: none;
+}
 .card2 h2::after {
     /*content: url('images/weather_icon.png'); /* Replace with the actual path to your weather icon */
     content: "☀️";

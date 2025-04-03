@@ -97,6 +97,9 @@ h2 {
    
 
 }
+.card2 img{
+    display: none;
+}
 
 .card2 h2::after {
     content: "🌧️"; /* Replace with the desired emoji */
