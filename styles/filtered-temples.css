@@ -103,6 +103,7 @@ footer {
 	font-weight: 700;
 }
 
+
 .container img {
     height: 100%;
     width: 100%;
@@ -118,6 +119,8 @@ footer {
 	content: "📍";  
 }
 img{
+    width: 100%;
+    height: auto;
     aspect-ratio: 16 / 9;
     object-fit: cover;
 }

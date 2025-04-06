@@ -31,7 +31,7 @@
 
 
 
-    @media (min-width: 35rem) {
+    @media (min-width: 640px) {
         nav ul {
             display: flex;
             justify-content: space-around;
