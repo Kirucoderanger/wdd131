@@ -46,8 +46,10 @@ nav a:hover {
 
 main {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 640px;
     padding: 1em;
+    display: block;
+    width: 100%;
 }
 
 footer {
@@ -115,4 +117,7 @@ footer {
 .active::before { 
 	content: "📍";  
 }
-
+img{
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}

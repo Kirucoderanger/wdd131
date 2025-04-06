@@ -21,7 +21,13 @@
     img {
         width: 100%;
         height: auto;
+        
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        
     }
+
+}
 
 
 
@@ -59,6 +65,9 @@
         .stuff {
             margin: 1rem auto;
         }
+        img{
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
     }
 
-}

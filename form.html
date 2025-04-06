@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+    <meta name="description" content="web form">
+    <meta name="author" content="Kirubel Mekonen Lemu">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
+<script src="scripts/form.js" defer></script>
+
+
+<!-- This start file was build by Paul Cheney  -->
+
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="styles/form.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+ <h1>Product Review</h1>
+        
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    
+    
+    
+<!-- CONTENT HERE -->
+<main>
+    
+    
+    <form method="get" action="review.html" class="wf1">
+        <fieldset>
+            <legend>Product Review</legend>
+            <label>Product Name
+                <select name="product" id="product" required>
+                    <option value="" disabled selected>Select Product &#9662;</option>
+                    
+                </select>
+            </label> 
+            <div class="star-rating">
+                <input type="radio" name="stars" id="star-a" value="5"/>
+                <label for="star-a"></label>
+          
+                <input type="radio" name="stars" id="star-b" value="4"/>
+                <label for="star-b"></label>
+            
+                <input type="radio" name="stars" id="star-c" value="3"/>
+                <label for="star-c"></label>
+            
+                <input type="radio" name="stars" id="star-d" value="2"/>
+                <label for="star-d"></label>
+            
+                <input type="radio" name="stars" id="star-e" value="1"/>
+                <label for="star-e"></label>
+          </div>
+          <label>Anticipated completion date<input type="date" name="date" id="date" required></label>
+          <div>Which features did you find useful(check all that apply)</div>
+            <label><input type="checkbox" id="Durability"  name="Durability" value="yes">Durability</label>
+            <label><input type="checkbox" id="Ease of Use"  name="Ease of Use" value="yes">Ease of Use</label>
+            <label><input type="checkbox" id="Performance"  name="Performance" value="yes">Performance</label>
+            <label><input type="checkbox" id="Design"  name="Design" value="yes">Design</label>
+            <label>Written Review(optional)<input type="textarea" name="review" id="review" ></label>
+            <label>First Name<input type="text" name="fname" ></label>
+          
+        </fieldset> 
+        <input type="submit" value="Review Product">
+       
+       
+        
+        
+
+    </form>
+        
+
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <p>
+        &copy; <span id="currentYear"></span> Kirubel Mekonen | Ethiopia     
+    </p>
+    <p id="lastModifiedtxt">
+        Last Modified: <span id="lastModified"></span>   
+    </p>
+</footer>
+
+</body>
+</html>

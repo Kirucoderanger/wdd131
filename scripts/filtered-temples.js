@@ -78,13 +78,62 @@ const temples = [
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
     {
+      templeName: "Billings Montana",
+      location: "Billings, Montana, United States",
+      dedicated: "1999, November, 21",
+      area:  10000,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/billings-montana/400x250/10-Billings-Montana-Temple-1566343.jpg"
+    },
+    {
+      templeName: "Brigham City Utah",
+      location: "Brigham City, Utah, United States",
+      dedicated: "2012, May, 6",
+      area:  10000,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/400x250/brigham-city-temple-lds-1027480-wallpaper.jpg"
+    },
+    {
+      templeName: "Tucson Arizona",
+      location: "Tucson, Arizona, United States",
+      dedicated: "2017, December, 10",
+      area:  10000,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tucson-arizona/400x250/tucson-arizona-temple-exterior-1929273-wallpaper.jpg"
+    },
+    {
       templeName: "Hamilton New Zealand",
       location: "Hamilton, New Zealand",
       dedicated: "1958, April,20",
       area: 45251,
       imageUrl : 
-      "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-31316.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/hamilton-new-zealand/400x250/hamilton_new_zealand_temple_detail_942155_2400x1200.jpg"
+      
     },
+    {
+      templeName: "Salt Lake City Utah",
+      location: "Salt Lake City, Utah, United States",
+      dedicated: "1893, April, 6",
+      area: 253016,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple5.jpg"
+    },
+    {
+      templeName: "Palmyra New York",
+      location: "Palmyra, New York, United States",
+      dedicated: "2000, April, 6",
+      area: 10000,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/palmyra-new-york/400x250/palmyra-temple-lds-830813-wallpaper.jpg"
+    },
+    {
+      templeName: "Bountiful Utah",
+      location: "Bountiful, Utah, United States",
+      dedicated: "1995, June, 6",
+      area: 10000,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bountiful-utah/400x250/bountiful-temple-766347-wallpaper.jpg"
+    }
     // Add more temple objects here...
 
   ];
