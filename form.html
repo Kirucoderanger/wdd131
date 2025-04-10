@@ -23,13 +23,13 @@
 
 
 <!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
+
 <!-- phone-default -->
 <link href="styles/form.css" rel="stylesheet">
 <!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
+
 <!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
+
 
 
      
@@ -60,29 +60,30 @@
                 </select>
             </label> 
             <div class="star-rating">
-                <input type="radio" name="stars" id="star-a" value="5"/>
+                <label for="star-a"></label>
+                <input type="radio" name="stars" id="star-a" value="5">
                 <label for="star-a"></label>
           
-                <input type="radio" name="stars" id="star-b" value="4"/>
+                <input type="radio" name="stars" id="star-b" value="4">
                 <label for="star-b"></label>
             
-                <input type="radio" name="stars" id="star-c" value="3"/>
+                <input type="radio" name="stars" id="star-c" value="3">
                 <label for="star-c"></label>
             
-                <input type="radio" name="stars" id="star-d" value="2"/>
+                <input type="radio" name="stars" id="star-d" value="2">
                 <label for="star-d"></label>
             
-                <input type="radio" name="stars" id="star-e" value="1"/>
+                <input type="radio" name="stars" id="star-e" value="1">
                 <label for="star-e"></label>
           </div>
           <label>Anticipated completion date<input type="date" name="date" id="date" required></label>
           <div>Which features did you find useful(check all that apply)</div>
             <label><input type="checkbox" id="Durability"  name="Durability" value="yes">Durability</label>
-            <label><input type="checkbox" id="Ease of Use"  name="Ease of Use" value="yes">Ease of Use</label>
+            <label><input type="checkbox" id="Ease-of-Use"  name="Ease-of-Use" value="yes">Ease of Use</label>
             <label><input type="checkbox" id="Performance"  name="Performance" value="yes">Performance</label>
             <label><input type="checkbox" id="Design"  name="Design" value="yes">Design</label>
-            <label>Written Review(optional)<input type="textarea" name="review" id="review" ></label>
-            <label>First Name<input type="text" name="fname" ></label>
+            <label>Written Review(optional)<textarea  name="review" id="review" ></textarea></label>
+            <label>First Name<input type="text" name="fname" id="fname" ></label>
           
         </fieldset> 
         <input type="submit" value="Review Product">

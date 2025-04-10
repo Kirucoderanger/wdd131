@@ -44,3 +44,5 @@ products.forEach(product => {
   option.textContent = product.name; // Set the product's name as the text of the option
   selectElement.appendChild(option); // Append the option to the select element
 });
+
+

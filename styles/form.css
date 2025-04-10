@@ -95,7 +95,9 @@ main {
     max-width: 400px;
     appearance: none;
 }
-.wf1 input[type="textarea"]{
+
+
+.wf1 textarea{
     background-color: #eee;
     display: block;
     border: solid 1px #999;
@@ -105,7 +107,6 @@ main {
     width: 100%;
     max-width: 400px;
     height: 10rem;
-    
     
 }
 .wf1 input[type="radio"],
