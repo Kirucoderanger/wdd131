@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "roboto", sans-serif;
+}
+
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0.5em 0;
+   
+}
+
+nav h1 {
+    color: white;
+    text-align: center;
+    padding: 0em;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+.active {
+    color: yellow;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+    background-color: #eee;
+    color: #000;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 1em;
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-color: #36454f;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+    color: #fff;
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+
+.container img {
+    height: 100%;
+    width: 100%;
+  }
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+/* just a wayfinding symbol for the user */
+.active::before { 
+	content: "📍";  
+}
+img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}

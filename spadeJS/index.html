@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Learning Platform</title>
+    <meta name="description" content="JavaScript Learning Platform - Home Page">
+    <meta name="keywords" content="JavaScript, Learning, Coding, Programming, Tutorials, Playground, Challenges, Forum">
+    <meta name="author" content="Kirubele Mekonen">
+    <title>JS Learning Platform Home page</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
 
     <header>
-        <img src="images/logo.png" alt="JS Logo" width="100" height="100">
+        <button id="themeToggle" class="primary">Light Mode</button>
+        <img src="images/logo.png" id="logo" width="100" height="100" alt="Logo of JS Learning Platform" loading="lazy">
         <h1>JavaScript Learning Platform</h1>
         <nav>
-            <ul>
+            <button id="menu" class="hamburger" name="menu"></button>
+            
+            <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="tutorials.html">Tutorials</a></li>
                 <li><a href="playground.html">Playground</a></li>
@@ -28,12 +35,15 @@
             <p>Learn JavaScript through hands-on coding exercises and challenges.</p>
             <a href="tutorials.html" class="btn">Start Learning</a>
         </section>
+        <div class="templeContainer" id="templeContainer">
+        
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2025 JS Learning Platform : Coderangers</p>
     </footer>
 
-    <script src="scripts/main.js"></script>
+    
 </body>
 </html>
