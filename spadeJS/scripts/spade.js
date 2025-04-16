@@ -1,14 +1,6 @@
 if (window.location.pathname === '/spadeJS/index.html') {
     // Manipulate index page
-        function runCode() {
-            let code = document.getElementById("codeEditor").value;
-            try {
-                let result = eval(code);
-                document.getElementById("output").innerText = result;
-            } catch (error) {
-                document.getElementById("output").innerText = "Error: " + error.message;
-            }
-        }
+        
     
     const themeToggle = document.getElementById('themeToggle');
             const body = document.body;
