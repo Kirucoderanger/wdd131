@@ -1,4 +1,4 @@
-if (window.location.pathname === '/spadeJS/index.html') {
+if (path.endsWith("index.html") || path === "/spadeJS/") {
     // Manipulate index page
         function runCode() {
             let code = document.getElementById("codeEditor").value;
