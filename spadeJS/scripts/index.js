@@ -34,7 +34,7 @@
             templeName: "coding logo",
             
             imageUrl:
-            "https://kirucoderanger.github.io/wdd131/spadeJS/images/code.png"
+            "https://github.com/Kirucoderanger/wdd131/blob/main/spadeJS/images/code.png"
           },
         {
           templeName: "Learn Interactive JavaScript",
